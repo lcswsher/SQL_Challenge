@@ -1,11 +1,12 @@
 -- Data Analysis Queries 
 
 -- List the following details of each employee: employee number, last name, first name, sex, and salary.
--- -- Joins: Join Salaries with Employees on on Emp_No.
+-- -- Joins: Join Salaries with Employees on Emp_No.
 
 select e.emp_no as "Employee Number", e.last_name as "Last Name", e.first_name as "First Name", e.sex as "Gender", s.salary as "Salary"
 from employees as e
-join salaries as s on e.emp_no = s.emp_no;
+join salaries as s on e.emp_no = s.emp_no
+order by e.emp_no;
 
 -- List first name, last name, and hire date for employees who were hired in 1986.
 
@@ -21,7 +22,7 @@ order by hire_date;
 select d.dept_no as "Department Number", d.dept_name as "Department Name", m.emp_no as "Employee Number", e.last_name as "Last Name", e.first_name as "First Name"
 from departments as d
 left join dept_manager as m on d.dept_no = m.dept_no
-left join employees as e on m.emp_no = e.emp_no; 
+left join employees as e on m.emp_no = e.emp_no;
 
 -- List the department of each employee with the following information: employee number, last name, 
 -- first name, and department name.
