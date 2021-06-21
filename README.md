@@ -1,6 +1,8 @@
 # SQL Homework - Employee Database: A Mystery in Two Parts
 
-![sql.png](sql.png)
+
+
+
 
 ## Background
 
@@ -79,7 +81,15 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 2. Create a histogram to visualize the most common salary ranges for employees.
 
-3. Create a bar chart of average salary by title.
+![image-20210621141804216](C:\Users\lcswi\AppData\Roaming\Typora\typora-user-images\image-20210621141804216.png)
+
+
+
+2. Create a bar chart of average salary by title.
+
+![image-20210621141909916](C:\Users\lcswi\AppData\Roaming\Typora\typora-user-images\image-20210621141909916.png)
+
+
 
 ## Epilogue
 
@@ -89,14 +99,15 @@ Evidence in hand, you march into your boss's office and present the visualizatio
 
 * Create an image file of your ERD.
 
+![image-20210621142036979](C:\Users\lcswi\AppData\Roaming\Typora\typora-user-images\image-20210621142036979.png)
+
+
+
 * Create a `.sql` file of your table schemata.
 
 * Create a `.sql` file of your queries.
-
 * (Optional) Create a Jupyter Notebook of the bonus analysis.
-
 * Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
-
 * Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
 ## Rubric
