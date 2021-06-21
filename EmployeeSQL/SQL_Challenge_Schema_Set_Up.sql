@@ -1,12 +1,12 @@
 -- Creating table schema for SQL Challenge (6 tables)
--- Drop tables (if they have been created set up)   
+-- Drop tables (if they have been set up)  
 
--- DROP TABLE IF EXISTS dept_emp;
--- DROP TABLE IF EXISTS dept_manager;
--- DROP TABLE IF EXISTS departments;
--- DROP TABLE IF EXISTS employees;
--- DROP TABLE IF EXISTS titles;
--- DROP TABLE IF EXISTS salaries;
+DROP TABLE IF EXISTS dept_emp;
+DROP TABLE IF EXISTS dept_manager;
+DROP TABLE IF EXISTS departments;
+DROP TABLE IF EXISTS employees;
+DROP TABLE IF EXISTS titles;
+DROP TABLE IF EXISTS salaries;
 
 -- 1) Creating Departments Table  
 
@@ -51,7 +51,7 @@ CREATE TABLE dept_emp(
     emp_no int NOT NULL,
     dept_no varchar (5)  NOT NULL,
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
-	FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
+	FOREIGN KEY (dept_no) REFERENCES departments(dept_no)	
 );
 
 -- 6) Creating Dept_Manager Table 
@@ -59,8 +59,9 @@ CREATE TABLE dept_emp(
 CREATE TABLE dept_manager(
     dept_no varchar (5) NOT NULL,
     emp_no int NOT NULL,
-    FOREIGN KEY (dept_no) REFERENCES departments(dept_no),
-	FOREIGN KEY (emp_no) REFERENCES employees(emp_no)	
+	PRIMARY KEY (dept_no, emp_no),
+    	FOREIGN KEY (dept_no) REFERENCES departments(dept_no),
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
 -- SELECT * FROM departments
@@ -82,15 +83,3 @@ CREATE TABLE dept_manager(
 -- SELECT * FROM dept_manager
 -- SELECT COUNT(dept_no) AS "TOTAL"
 -- FROM dept_manager;
-
--- SELECT * FROM dept_emp
--- SELECT COUNT(emp_no) AS "TOTAL"
--- FROM dept_emp;
-
-
-
-
-
-
-
-

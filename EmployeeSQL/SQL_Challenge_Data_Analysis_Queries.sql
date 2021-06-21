@@ -66,18 +66,4 @@ order by e.emp_no;
 select last_name as "Last Name", count(*) as "Count of Employees Last Name"
 from employees
 group by last_name
-order by "Count of Employees Last Name" desc; 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- er, list the frequency count of employee last names, i.e., how many employees share each last name.
+order by "Count of Employees Last Name" desc;
