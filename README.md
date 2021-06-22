@@ -1,8 +1,6 @@
 # SQL Homework - Employee Database: A Mystery in Two Parts
 
-
-
-
+![sql](https://user-images.githubusercontent.com/78572525/122960375-f5ceaa00-d348-11eb-91aa-8912404382ed.png)
 
 ## Background
 
