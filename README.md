@@ -81,7 +81,7 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 2. Create a histogram to visualize the most common salary ranges for employees.
 
-https://github.com/lcswsher/SQL_Challenge/blob/main/EmployeeSQL/Bonus/SQL_Challenge_Histogram_Employee_Salaries.png
+![SQL_Challenge_Histogram_Employee_Salaries](https://user-images.githubusercontent.com/78572525/122954766-5956d880-d345-11eb-8ccd-9397adf16016.png)
 
 2. Create a bar chart of average salary by title.
 
