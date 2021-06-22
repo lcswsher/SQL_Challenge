@@ -81,15 +81,11 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 2. Create a histogram to visualize the most common salary ranges for employees.
 
-![image-20210621141804216](C:\Users\lcswi\AppData\Roaming\Typora\typora-user-images\image-20210621141804216.png)
-
-
+https://github.com/lcswsher/SQL_Challenge/blob/main/EmployeeSQL/Bonus/SQL_Challenge_Histogram_Employee_Salaries.png
 
 2. Create a bar chart of average salary by title.
 
-![image-20210621141909916](C:\Users\lcswi\AppData\Roaming\Typora\typora-user-images\image-20210621141909916.png)
-
-
+https://github.com/lcswsher/SQL_Challenge/blob/main/EmployeeSQL/Bonus/SQL_Challenge_Bar_Chart_Employee_Average_Salary_by_Title.png
 
 ## Epilogue
 
@@ -99,9 +95,7 @@ Evidence in hand, you march into your boss's office and present the visualizatio
 
 * Create an image file of your ERD.
 
-![image-20210621142036979](C:\Users\lcswi\AppData\Roaming\Typora\typora-user-images\image-20210621142036979.png)
-
-
+https://github.com/lcswsher/SQL_Challenge/blob/main/EmployeeSQL/SQL_Challenge_Data_Model.png
 
 * Create a `.sql` file of your table schemata.
 
