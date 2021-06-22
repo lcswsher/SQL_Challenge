@@ -94,7 +94,7 @@ Evidence in hand, you march into your boss's office and present the visualizatio
 ## Submission
 
 * Create an image file of your ERD.
-
+![SQL_Challenge_Data_Model](https://user-images.githubusercontent.com/78572525/122956241-70e29100-d346-11eb-95ed-54dfffdcc201.png)
 
 * Create a `.sql` file of your table schemata.
 
