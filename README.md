@@ -22,6 +22,7 @@ Note: You may hear the term "Data Modeling" in place of "Data Engineering," but 
 
 3. Inside your local git repository, create a directory for the SQL challenge. Use a folder name to correspond to the challenge: **EmployeeSQL**.
 
+https://github.com/lcswsher/SQL_Challenge/tree/main/EmployeeSQL
 4. Add your files to this folder.
 
 5. Push the above changes to GitHub.
