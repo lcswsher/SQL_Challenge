@@ -95,10 +95,14 @@ Evidence in hand, you march into your boss's office and present the visualizatio
 
 ![SQL_Challenge_Data_Model](https://user-images.githubusercontent.com/78572525/122956241-70e29100-d346-11eb-95ed-54dfffdcc201.png)
 * Create a `.sql` file of your table schemata. 
+
+https://github.com/lcswsher/SQL_Challenge/blob/main/EmployeeSQL/SQL_Challenge_Schema_Set_Up.sql
 * Create a `.sql` file of your queries.
 
 https://github.com/lcswsher/SQL_Challenge/blob/main/EmployeeSQL/SQL_Challenge_Data_Analysis_Queries.sql
 * (Optional) Create a Jupyter Notebook of the bonus analysis.
+
+https://github.com/lcswsher/SQL_Challenge/blob/main/EmployeeSQL/Bonus/SQL_Challenge_Pandas_Exercise.ipynb
 * Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
 * Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
