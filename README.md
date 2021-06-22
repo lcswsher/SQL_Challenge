@@ -85,7 +85,7 @@ https://github.com/lcswsher/SQL_Challenge/blob/main/EmployeeSQL/Bonus/SQL_Challe
 
 2. Create a bar chart of average salary by title.
 
-https://github.com/lcswsher/SQL_Challenge/blob/main/EmployeeSQL/Bonus/SQL_Challenge_Bar_Chart_Employee_Average_Salary_by_Title.png
+![SQL_Challenge_Bar_Chart_Employee_Average_Salary_by_Title](https://user-images.githubusercontent.com/78572525/122953914-9bcbe580-d344-11eb-8c9c-5b5ec40081e5.png)
 
 ## Epilogue
 
